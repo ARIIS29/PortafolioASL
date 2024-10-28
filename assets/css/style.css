@@ -116,6 +116,16 @@ h2 {
     /* Espaciado */
     text-align: center;
 }
+h1 {
+    font-family: 'Century Gothic';
+    color: #17A1E6;
+    /* Azul */
+    font-weight: bold;
+    /* Negritas */
+    padding: 0.5rem 0.75rem;
+    /* Espaciado */
+    text-align: center;
+}
 
 p {
     font-family: 'Century Gothic';
