@@ -1,0 +1,376 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D2F4FF;
+}
+
+
+/* Estilo para la barra de navegación */
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+/* Estilo para los elementos de navegación (navbar-nav) */
+.navbar-nav .nav-link {
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    padding: 0.5rem 0.75rem;
+    /* Ajusta el relleno de los enlaces de navegación */
+    font-size: 20px;
+    /* Ajusta el tamaño de fuente de los enlaces de navegación */
+}
+
+/* Estilo por defecto para los enlaces del menú */
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+/* Estilo para los enlaces cuando se hace hover */
+.navbar-nav .nav-link:hover {
+    color: #0A58CA!important;
+    /* Color de textoal hacer hover */
+}
+
+.navbar-nav .nav-link.active {
+    color: #17A1E6 !important;
+    background: #D2F4FF !important;
+    border-radius: 10px;
+}
+
+.navbar.navbar-color {
+    background-color: #17A1E6 !important;
+}
+
+/* Estilo para la barra de navegación fija */
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.texto {
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    /* Ajusta el relleno de los enlaces de navegación */
+    font-size: 20px;
+    /* Ajusta el tamaño de fuente de los enlaces de navegación */
+}
+
+.texto:hover {
+    color: #0A58CA !important;
+}
+
+/* Estilos de la section */
+.mt-6 {
+    margin-top: 6%;
+}
+
+.mt-10 {
+    margin-top: 10%
+}
+
+.banner {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.seccion {
+    width: 100%;
+    /* Asegura que la sección ocupe todo el ancho */
+    padding: 20px 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 576px) {
+    .seccion {
+        padding: 10px 0;
+        /* Reducir el padding en dispositivos pequeños */
+        width: 100%;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+h2 {
+    font-family: 'Century Gothic';
+    color: #17A1E6;
+    /* Azul */
+    font-weight: bold;
+    /* Negritas */
+    padding: 0.5rem 0.75rem;
+    /* Espaciado */
+    text-align: center;
+}
+
+p {
+    font-family: 'Century Gothic';
+    color: #17A1E6;
+    padding: 0.5rem 0.75rem;
+    font-size: 16px;
+    text-align: justify;
+    color: white !important;
+}
+
+/* Estilos wizard  */
+
+.wizard {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-btn {
+    /* padding: 10px 20px; */
+    background-color: transparent;
+    color: #17A1E6;
+    border: 2px solid #17a1e600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    color: #0A58CA;
+    background-color: #d2f4ff00;
+}
+
+.menu-btn.active {
+    background-color: #D2F4FF;
+    color: #17A1E6;
+    border-color: #D2F4FF;
+}
+
+.texto-proyecto {
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: #17A1E6;
+    padding: 0.5rem 0.75rem;
+    font-size: 20px;
+    /* Ajusta el tamaño de fuente de los enlaces de navegación */
+}
+
+.steps .step {
+    display: none;
+}
+
+.steps .active {
+    display: block;
+}
+
+/* Estilo para la sección 'steps' */
+.steps {
+    background-color: #D2F4FF;
+    /* Fondo de color gris claro para toda la sección */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada tarjeta individual */
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    /* background-color: #17A1E6 !important; */
+}
+
+.card-panecito {
+    background-color: rgba(0, 0, 0, 0.836) !important;
+}
+
+.card-disrexia {
+    background-color: #01A50D !important;
+}
+
+.card-disgrafi {
+    background-color: #2b568ea8 !important;
+}
+.card-crud {
+    background-color: #0d5bc0b9 !important;
+}
+/* Estilo al pasar el ratón sobre las tarjetas */
+.card:hover {
+
+    /* Efecto de agrandamiento */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Sombra más pronunciada */
+}
+
+/* Estilo para los títulos dentro de las tarjetas */
+.card-title {
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.card-text-panecito {
+    font-family: 'Century Gothic';
+    color: white;
+    font-size: 16px;
+}
+
+.icon-links {
+    display: flex;
+    justify-content: space-around;
+    /* Espacio entre los iconos */
+    margin-top: 15px;
+    /* Espacio superior para separar de la descripción */
+}
+
+.icon-links a {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0 10px;
+    color: white;
+    animation: swing 2s infinite ease-in-out;
+}
+
+/* Animación de rebote */
+@keyframes swing {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* Ajuste para columnas si usas Bootstrap */
+.row {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #17A1E6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos linea azul de h1 */
+.underline {
+    font-weight: normal;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    /* Ajusta la distancia debajo del texto */
+    left: 50%;
+    /* Centra la línea */
+    transform: translateX(-50%);
+    width: 50px;
+    /* Longitud de la línea */
+    height: 3px;
+    /* Grosor de la línea */
+    background-color: #17A1E6;
+    /* Color de la línea */
+    transition: all 0.3s ease;
+    /* Transición suave */
+    opacity: 0;
+}
+
+.underline.active {
+    font-weight: bold;
+    /* Letras más gruesas */
+}
+
+.underline.active::after {
+    opacity: 1;
+    /* Aparece la línea */
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 600px;
+    /* Ajusta el ancho máximo de la tarjeta */
+}
+
+.tarjeta {
+    background-color: #17A1E6;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Century Gothic';
+}
+
+.nombre {
+    font-family: 'Century Gothic';
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titulo {
+    color: white !important;
+    margin: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Century Gothic';
+}
+
+.tarjeta ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tarjeta ul li {
+    margin: 20px 0;
+}
+
+.tarjeta ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.tarjeta ul li a:hover {
+    color: #0A58CA;
+}
+
+.tarjeta i {
+    margin-right: 2%;
+}
+
+footer {
+    background-color: #17A1E6;
+    color: #fff;
+    padding: 15px;
+    bottom: 0;
+}
